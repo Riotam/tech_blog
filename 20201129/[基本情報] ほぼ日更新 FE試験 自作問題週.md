@@ -1397,6 +1397,7 @@ RAIDの種類のうち、3台以上のディスクを使って、データと同
     <div>
 
 `RAID5`
+
 高速性と堅牢性を担保している。
     </div>
 </details>
@@ -1626,6 +1627,7 @@ OSは ( _____ ソフトウェア ) と呼ばれる。
     <div>
 
 `サービスプログラム`
+
 ファイル圧縮プログラムなど。
     </div>
 </details>
@@ -1723,6 +1725,7 @@ OSは ( _____ ソフトウェア ) と呼ばれる。
     <div>
 
 `ディスパッチャ`
+
 ディスパッチは、タスクにCPUの使用権を割り当てること。
     </div>
 </details>
@@ -1868,6 +1871,7 @@ OSは ( _____ ソフトウェア ) と呼ばれる。
     <div>
 
 `最初にページインしたページ`
+
 First In First Out
     </div>
 </details>
@@ -1881,6 +1885,7 @@ First In First Out
     <div>
 
 `最後にページインしたページ`
+
 Last In First Out
     </div>
 </details>
@@ -1894,6 +1899,7 @@ Last In First Out
     <div>
 
 `最も長い間参照されていないページ`
+
 Least Recently Used
     </div>
 </details>
@@ -1907,6 +1913,7 @@ Least Recently Used
     <div>
 
 `最も参照回数が少ないページ`
+
 Least Frequently Used
     </div>
 </details>
@@ -1919,6 +1926,7 @@ Least Frequently Used
     <div>
 
 `プロセス単位`
+
 Least Frequently Used
     </div>
 </details>
@@ -1929,12 +1937,74 @@ Least Frequently Used
 
 ## 10-1. ファイルとは文書のこと
 
-以下、編集中 2020/12/14
+静止画データの圧縮符号化に関する国際標準になっている規格といえば ( ____ ) が代表的。
+<details>
+  <summary>答え</summary>
+    <div>
 
-# 11. データベース 〜 20. 財務会計は忘れちゃいけないお金の話
+`JPEG`
+
+Joint Photograph coding Experts Group
+    </div>
+</details>
+
+---
+
+64kビット/秒程度の低速回線用の同画像データ圧縮符号化でになっている規格といえば ( MPEG - ____ ) が代表的。
+<details>
+  <summary>答え</summary>
+    <div>
+
+`MPEG-4`
+
+MPEG-7は動画用ではなくXML用なので注意。
+    </div>
+</details>
+
+## 10-2. 文書をしまう場所がディレクトリ
+
+empty
+
+## 10-3. ファイルの場所を示す方法
+
+empty
+
+## 10-4. 汎用コンピュータにおけるファイル
+
+empty
+
+# 11. データベース
 
 <!-- (p.288〜p.702) -->
-編集中です。
+
+## 11-1. DBMSと関係データベース
+
+関係データベースの操作の射影とは、特定の ( 行, 列 ) を取り出す操作。
+
+<details>
+  <summary>答え</summary>
+    <div>
+
+`列`
+
+特定の行を取り出す操作は、選択という。
+    </div>
+</details>
+
+## 11-2. 主キーと外部キー
+
+主キー制約の条件は ( ____ と ____ ) 。
+<details>
+  <summary>答え</summary>
+    <div>
+
+`重複でないことと空でないこと`
+    </div>
+</details>
+
+## 11-3. 正規化
+
+以下、編集中です。 2020/12/15
 
 # 参考
 
